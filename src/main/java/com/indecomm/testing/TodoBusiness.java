@@ -4,4 +4,6 @@ import java.util.List;
 
 public interface TodoBusiness {
 	public List<Todo> filterTodos(String text);
+
+	public void deleteTodoIfNotEmpty(String text);
 }
